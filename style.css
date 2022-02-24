@@ -1,9 +1,15 @@
-div {
+.main-div {
     max-width: 100%;
-    background-color: green;
-    text-align: center;
 }
 
-h5 {
-    color: white;
+.logo {
+    max-width: 30%;
+}
+
+.menu {
+    max-width: 70%;
+}
+
+ul li {
+    display: inline;
 }
