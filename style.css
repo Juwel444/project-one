@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
 }
 
 .clearfix:after {
@@ -11,7 +12,7 @@
 
 .main-div {
     max-width: 100%;
-    background-color: #007ACC;
+    background-color: #1A4B9A;
     height: 40px;
     height: 40px;
     text-align: center;
@@ -45,4 +46,53 @@ ul li {
     padding: 10px;
     display: inline-block;
     text-decoration: none;
+}
+
+.hero {
+    background: url(https://www.pngkey.com/png/full/245-2457015_abstract-blue-wavy-shapes-on-transparent-background-page.png);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    z-index: -1;
+}
+
+.hc {
+    text-align: center;
+    padding-top: 200px;
+    z-index: 10;
+}
+
+.L25 {
+    width: 400px;
+    display: inline-block;
+}
+
+
+/*.overlay {
+    background: rgba(58, 148, 6, 0.034);
+}*/
+
+.nb {
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background-color: #007ACC;
+    border: 1px solid #007ACC;
+}
+
+.nbc {
+    padding-top: 30px;
+}
+
+.card {
+    float: left;
+    text-align: center;
+}
+
+.s3 {
+    max-width: 100%;
+    text-align: center;
+    padding-top: 100px;
 }
