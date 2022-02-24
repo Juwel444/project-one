@@ -3,12 +3,20 @@
     padding: 0px;
 }
 
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .main-div {
-    max-width: 1160px;
+    max-width: 100%;
+    color: #007ACC;
 }
 
 .logo {
     max-width: 30%;
+    float: left;
 }
 
 .menu {
@@ -22,4 +30,5 @@ ul li {
 
 .menu-div {
     width: 70%;
+    float: right;
 }
