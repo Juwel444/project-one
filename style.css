@@ -11,7 +11,7 @@
 
 .main-div {
     max-width: 100%;
-    color: #007ACC;
+    background-color: #007ACC;
 }
 
 .logo {
@@ -21,7 +21,6 @@
 
 .menu {
     text-align: center;
-    background-color: rgb(0, 255, 115);
 }
 
 ul li {
