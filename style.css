@@ -7,9 +7,14 @@
 }
 
 .menu {
-    max-width: 70%;
+    text-align: center;
+    background-color: rgb(0, 255, 115);
 }
 
 ul li {
     display: inline;
+}
+
+.menu-div {
+    width: 70%;
 }
